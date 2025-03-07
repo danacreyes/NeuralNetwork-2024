@@ -16,6 +16,8 @@ Este proyecto explora y compara dos enfoques distintos para la clasificación de
 - *Uso de Scikit-learn* → Implementación utilizando una biblioteca optimizada para facilitar el desarrollo y mejorar el rendimiento.
 - *Implementación Manual con NumPy* → Desarrollo desde cero de una red neuronal, permitiendo un control detallado sobre cada operación.
 
+
+--
 A lo largo del estudio, se analizaron conceptos clave como:
 - Algoritmo de retropropagación para el ajuste de pesos.
 - Cálculo de derivadas y gradientes en la optimización del modelo.
@@ -25,14 +27,18 @@ A lo largo del estudio, se analizaron conceptos clave como:
 **Implementación Manual**:
 > ✔️ Mayor flexibilidad y control sobre cada etapa del modelo.
 
+
 > ✔️ Ideal para comprender los fundamentos matemáticos y computacionales.
+
 
 > ❌ Puede ser más lenta y requerir mayor esfuerzo en optimización.
 
 **Scikit-learn**:
 > ✔️ Implementación rápida y eficiente con funciones preoptimizadas.
 
+
 > ✔️ Ideal para proyectos donde el rendimiento es crítico.
+
 
 > ❌ Menor control sobre la personalización de los procesos internos.
 
@@ -40,5 +46,6 @@ A lo largo del estudio, se analizaron conceptos clave como:
 El propósito es evaluar los beneficios y limitaciones de cada enfoque, proporcionando una base para elegir la mejor opción según las necesidades del problema a resolver.
 
 **¿Cuál es el mejor enfoque?** 
+
 
 La respuesta depende del balance entre control, eficiencia y facilidad de implementación.

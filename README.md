@@ -2,12 +2,37 @@
 
 ### Red neuronal de clasificacion
 
-Tecnicatura en Programación Informática (UNSAM)  
-**Materia:** Matematica 3 - 2024
+Tecnicatura Universitaria en Programación Informática - Universidad Nacional de San Martín (UNSAM) 
+- MATERIA: Matematica 3 - 2024
+
+## Equipo de desarrollo
+- Andres Maximiliano
+- Cossettini Reyes Dana
 
 ---
 
 ## Descripción
+Este proyecto explora y compara dos enfoques distintos para la clasificación de imágenes mediante redes neuronales:
+- *Uso de Scikit-learn* → Implementación utilizando una biblioteca optimizada para facilitar el desarrollo y mejorar el rendimiento.
+- *Implementación Manual con NumPy* → Desarrollo desde cero de una red neuronal, permitiendo un control detallado sobre cada operación.
+A lo largo del estudio, se analizaron conceptos clave como:
+- Algoritmo de retropropagación para el ajuste de pesos.
+- Cálculo de derivadas y gradientes en la optimización del modelo.
+- Funciones de activación como ReLU y Softmax para mejorar la capacidad de aprendizaje.
 
-Este trabajo se centra en la implementación y comparación de modelos de redes neuronales para la clasificación de imágenes utilizando dos enfoques diferentes: Scikit-learn y una implementación manual con NumPy. A lo largo del proyecto, se exploraron conceptos fundamentales de las redes neuronales, incluyendo el algoritmo de retropropagación, el cálculo de derivadas, y el uso de funciones de activación como ReLU o la Softmax.
-Este trabajo resalta la importancia de elegir el enfoque adecuado para el desarrollo de modelos de aprendizaje automático. La implementación manual permite un control detallado sobre cada aspecto del modelo, pero puede resultar en tiempos de ejecución más prolongados. Por otro lado, el uso de bibliotecas optimizadas como Scikit-learn puede ofrecer una solución más eficiente, especialmente en proyectos donde la rapidez es un factor crítico.
+# Comparación de Enfoques
+**Implementación Manual**:
+> ✔️ Mayor flexibilidad y control sobre cada etapa del modelo.
+> ✔️ Ideal para comprender los fundamentos matemáticos y computacionales.
+> ❌ Puede ser más lenta y requerir mayor esfuerzo en optimización.
+
+**Scikit-learn**:
+> ✔️ Implementación rápida y eficiente con funciones preoptimizadas.
+> ✔️ Ideal para proyectos donde el rendimiento es crítico.
+> ❌ Menor control sobre la personalización de los procesos internos.
+
+# Objetivo del Proyecto
+El propósito es evaluar los beneficios y limitaciones de cada enfoque, proporcionando una base para elegir la mejor opción según las necesidades del problema a resolver.
+
+**¿Cuál es el mejor enfoque?** 
+La respuesta depende del balance entre control, eficiencia y facilidad de implementación.
